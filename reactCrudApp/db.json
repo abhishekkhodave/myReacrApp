@@ -1,0 +1,21 @@
+{
+  "users": [
+    {
+      "name": "ramesh",
+      "id": "_a_41NRdtKU"
+    },
+    {
+      "name": "rushikesh",
+      "id": "huoFbSceQ_w"
+    },
+    {
+      "name": "React CRUD App",
+      "id": "0-ps6ygLLB0"
+    },
+    {
+      "name": "abhishek",
+      "id": "-ONDUDX6ClM"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

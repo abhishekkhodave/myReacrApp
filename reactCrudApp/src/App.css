@@ -1,0 +1,108 @@
+/* Page background */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+
+  /* 👇 Center everything */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Main container */
+.container {
+  width: 100%;
+  max-width: 500px;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* Title */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Input */
+input {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  transition: 0.2s;
+}
+
+input:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.15);
+}
+
+/* Buttons */
+button {
+  padding: 8px 12px;
+  margin: 5px 5px 10px 0;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+/* Add / Update button */
+button:nth-of-type(1) {
+  background: #4a90e2;
+  color: white;
+}
+
+button:nth-of-type(1):hover {
+  background: #357bd8;
+}
+
+/* Edit button */
+button.edit {
+  background: #f0ad4e;
+  color: white;
+}
+
+button.edit:hover {
+  background: #ec971f;
+}
+
+/* Delete button */
+button.delete {
+  background: #e74c3c;
+  color: white;
+}
+
+button.delete:hover {
+  background: #c0392b;
+}
+
+/* List */
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  background: #f9fafc;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Left text */
+li span {
+  flex: 1;
+}
