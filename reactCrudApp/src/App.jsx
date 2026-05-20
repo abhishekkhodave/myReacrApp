@@ -8,7 +8,7 @@ function App() {
   const [name, setName] = useState("");
   const [editingId, setEditingId] = useState(null);
 
-  const API_URL = "http://localhost:3000/users";
+  const API_URL = "http://44.212.221.147:3000/users";
 
   // Fetch users
   const fetchUsers = async () => {
@@ -66,7 +66,7 @@ function App() {
 
   return (
     <div>
-      <Navbar title="Suraj"/>
+      <Navbar title="Details"/>
   
       <div style={{ padding: "20px" }}>
         <h1>React CRUD App</h1>
